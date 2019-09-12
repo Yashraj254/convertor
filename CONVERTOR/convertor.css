@@ -1,0 +1,52 @@
+body    {
+    margin: 0;
+    padding: 0;
+    background: url(wc.jpg);
+    background-size: cover;
+}
+input[type = "number"]
+{
+    width: 240px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 200px;
+    padding: 10px 0px;
+    transition: border 0.5s;
+    background: #cccccc;
+}
+input[type = "button1"]
+{
+
+    width: 140px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 200px;
+    padding: 10px 0px;
+    transition: border 0.5s;
+    background: #cccccc;
+}
+input[type = "button1"]:hover{
+    color: red;
+    background: yellow;
+}
+input[type = "button2"]{
+    text-align : center;
+}
+
+form{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.wc{
+    font-size: 30px;
+    margin-top: 40px;
+    color: black;
+    text-align: center;
+}
+label{
+    font-size: 30px;
+}
